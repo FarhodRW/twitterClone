@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "emitDecoratorMetadata": true,
+    "composite": false,
+    "strictNullChecks": false,
+    "outDir": "./dist",
+     "typeRoots": [
+      "./src/typings",
+      "./node_modules/@types"
+    ] /* List of folders to include type definitions from. */,
+  }
+}
